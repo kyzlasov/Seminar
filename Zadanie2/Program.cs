@@ -2,10 +2,10 @@
 int num1 = int.Parse(Console.ReadLine());
 int num2 = int.Parse(Console.ReadLine());
 int num3 = int.Parse(Console.ReadLine());
-if (num1 > num2) and (num1 > num3) Console.WriteLine("Число num1 наибольшее");
-else if (num2 > num1) and (num2 > num3) Console.WriteLine("Число num2 наибольшее");
-else if (num3 > num1) and (num3 > num2) Console.WriteLine("Число num3 наибольшее");
-else if (num2 == num1) and (num2 > num3) Console.WriteLine("Число num2 и num1 наибольшее");
-else if (num2 == num3) and (num2 > num1) Console.WriteLine("Число num2 и num3 наибольшее");
-else if (num1 == num3) and (num1 > num2) Console.WriteLine("Число num1 и num3 наибольшее");
+if (num1 > num2 && num1 > num3) Console.WriteLine("Число num1 наибольшее");
+else if (num2 > num1 && num2 > num3) Console.WriteLine("Число num2 наибольшее");
+else if (num3 > num1 && num3 > num2) Console.WriteLine("Число num3 наибольшее");
+else if (num2 == num1 && num2 > num3) Console.WriteLine("Число num2 и num1 наибольшее");
+else if (num2 == num3 && num2 > num1) Console.WriteLine("Число num2 и num3 наибольшее");
+else if (num1 == num3 && num1 > num2) Console.WriteLine("Число num1 и num3 наибольшее");
 else Console.WriteLine("Все числа равны");
